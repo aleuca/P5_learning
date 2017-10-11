@@ -29,6 +29,6 @@ function update() {
 //=========================
 //Interactivity functions
 //=========================
-function touchStarted(x, y) {
-    console.log("Touch!", x, y)
+function touchStarted() {
+    console.log("Touch!", mouseX, mouseY)
 };
